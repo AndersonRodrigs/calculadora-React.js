@@ -1,0 +1,54 @@
+:root {
+  --bg-button: rgb(104, 103, 103);
+}
+
+.button {
+  font-size: 1.4rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+  border-radius: 20px;
+  color: white;
+  background:
+    #3f3f3f;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.747),
+    inset 0px -3px 0px 0px rgba(0, 0, 0, 0.747);
+
+    transition: background .1s;
+}
+
+.button:active {
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.747);
+  position: relative;
+  top: 2px;
+}
+
+.button.double {
+  grid-column: span 2;
+}
+
+.button.triple {
+  grid-column: span 3;
+}
+
+.button.operation {
+  background-color: rgba(0, 0, 0, 0.315);transition: background .1s;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.315);
+}
+
+.button.operation:hover {
+  background: #3f3f3f;
+}
+
+.button.action {
+  background-color: rgb(0, 0, 197);
+}
+
+.button.action:hover {
+  background-color: rgb(0, 68, 255);
+}

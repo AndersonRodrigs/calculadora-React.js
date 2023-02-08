@@ -1,0 +1,20 @@
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 10px;
+  color: white;
+}
+
+.calculator {
+  overflow: hidden;
+  width: 100%;
+  max-width: 350px;
+  padding: 5px;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: 1fr repeat(5, 60px);
+  gap: 5px;
+}

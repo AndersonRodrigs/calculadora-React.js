@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Bungee', sans-serif;
+  background-color: #1f1f1f;
+  /* background-color: rgb(169, 215, 255); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
